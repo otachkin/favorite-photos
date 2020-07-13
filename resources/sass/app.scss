@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    grid-gap: 1rem;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+.gallery-panel img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.75rem;
+}
